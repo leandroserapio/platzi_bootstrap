@@ -1,1 +1,1 @@
-platzi_bootstrap
+Curso de Platzi
