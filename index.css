@@ -15,6 +15,15 @@
     filter: grayscale(70%);
 }
 
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover{
+    background-color:#7ca535;
+}
+
 #caorusel{
     position: relative;
 }
