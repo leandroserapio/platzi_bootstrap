@@ -39,7 +39,7 @@
                     <a class="nav-link" href="#conviertete-en-orador">Conviertete en orador</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-platzi" href="#">Comprar Tickets</a>
+                    <a class="nav-link text-platzi" data-toggle="modal" data-target="#modal-compra" href="#modal-compra">Comprar Tickets</a>
                   </li>
                 </ul>
               </div>
@@ -79,7 +79,7 @@
                             que tenemos para ti. Te esperamos!!
                           </p>
                           <a href="#" class="btn btn-outline-light">Quiero ser Orador</a>
-                          <button type="button" class="btn btn-platzi">Comprar Tickets</button>
+                          <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modal-compra" href="#modal-compra" >Comprar Tickets</button>
                     </div>
                   </div>
                 </div>
@@ -241,6 +241,28 @@
         </div>
       </div>
     </footer>
+
+    <!-- modal-->
+
+      <div class="modal fade" id="modal-compra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
